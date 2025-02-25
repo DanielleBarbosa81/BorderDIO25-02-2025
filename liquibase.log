@@ -1,0 +1,20 @@
+Iniciando a migração...
+2025-02-24T22:07:28.554-03:00  INFO 12088 --- [  restartedMain] liquibase.database                       : Set default schema name to public
+2025-02-24T22:07:28.680-03:00  INFO 12088 --- [  restartedMain] liquibase.changelog                      : Reading from public.databasechangelog
+
+UPDATE SUMMARY
+Run:                          0
+Previously run:               1
+Filtered out:                 0
+-------------------------------
+Total change sets:            1
+
+2025-02-24T22:07:28.706-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : UPDATE SUMMARY
+2025-02-24T22:07:28.706-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : Run:                          0
+2025-02-24T22:07:28.706-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : Previously run:               1
+2025-02-24T22:07:28.706-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : Filtered out:                 0
+2025-02-24T22:07:28.706-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : -------------------------------
+2025-02-24T22:07:28.707-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : Total change sets:            1
+2025-02-24T22:07:28.707-03:00  INFO 12088 --- [  restartedMain] liquibase.util                           : Update summary generated
+2025-02-24T22:07:28.707-03:00  INFO 12088 --- [  restartedMain] liquibase.command                        : Command execution complete
+Migração concluída com sucesso!
